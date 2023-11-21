@@ -88,7 +88,7 @@ function crearAdministrador() {
         if (!response.ok) {
             throw new Error('La respuesta del servidor no es válida');
         }
-        return response.json();
+        return response.json();    
     })
     .then(data => {
 
